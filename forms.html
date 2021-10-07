@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <form class="" action="index.html" method="post">
+    <table>
+      <body>
+        <tr>
+          <td><label>Username</label></td>
+          <td><input type="text" name="" value=""></input></td>
+        </tr>
+        <tr>
+          <td><label>PW</label></td>
+          <td><input type="password" id="pw" minlength="10" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])" title="pls uppercase lowercase and nubmer" required onfocus="result.value = 'O'" onblur="result.value = 'X'"></td>
+          <td><output name="result" for="pw"></output></td>
+        </tr>
+        <tr>
+          <td><label for="check">YES????</label></td>
+          <td><input type="checkbox" name="" id="check"></td>
+        </tr>
+      </body>
+      <tfoot>
+        <tr>
+          <th><input type="submit"></th>
+        </tr>
+      </tfoot>
+    </table>
+  </form>
+</body>
+<br>
+<form class="" action="mailto:camwow93@gmail.com" method="post">
+  <table>
+    <body>
+      <tr>
+        <td><label for="name">Name</label></td>
+        <td><input type="text" name="name" id="name" value=""></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email</label></td>
+        <td><input type="email" name="email" id="email" value=""></td>
+      </tr>
+      <tr>
+        <td><label for="message">Message</label></td>
+        <td><textarea name="message" id="message" rows="8" cols="40"></textarea></td>
+      </tr>
+    </body>
+    <tfoot>
+      <tr>
+        <th><input type="submit"></th>
+      </tr>
+    </tfoot>
+  </table>
+</form>
+</html>
